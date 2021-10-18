@@ -1,0 +1,36 @@
+/* basic style*/
+
+.scroll-to-top {
+    margin: 2em auto;
+    width: 42px;
+    color: white;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 1em 0.5em;
+    right: 10px;
+    bottom: 15px;
+    position: fixed;
+    z-index: 9999;
+    cursor: pointer;
+    border-radius: 50%;
+    display: none;
+  }
+
+  .scroll-to-top a {
+      color: white!important;
+  }
+  
+  .scroll-to-top {
+    background: linear-gradient(#252525, #252525 50%, #2ecc71 50%, #2ecc71);
+    background-size: 100% 200%;
+    transition: background 1s;
+  }
+  
+  .scroll-to-top:hover {
+    background-position: 100% 100%;
+    color: white;
+  }
