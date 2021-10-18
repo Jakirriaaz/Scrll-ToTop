@@ -12,7 +12,7 @@
             }
         });
 
-        jQuery(".scroll-to-top a").on('click', function(){
+        jQuery(".scroll-to-top").on('click', function(){
             jQuery("html, body").animate({'scrollTop' : 0}, 500);
 
             return false;
